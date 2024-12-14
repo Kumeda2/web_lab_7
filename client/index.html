@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web-lab</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="page">
+        <div class="main">
+            <div class="menu">
+                <a href="#">Відгуки</a>
+                <a href="#">Прайсинг</a>
+                <a href="#">Водії</a>
+                <a href="#">Кадри роботи водіїв</a> 
+            </div>
+
+            <div class="wrapper-1">
+                <div class="header">
+                    <div class="container">
+                        <p>Найкраще таксі вашого міста</p>
+                        <div class="logo-holder">
+                            <h1>КумедаДрайв</h1>
+                        </div>
+                    </div>
+                    <div class="header-menu">
+                        <a href="#">Відгуки</a>
+                        <a href="#">Прайсинг</a>
+                        <a href="#">Водії</a>
+                        <a href="#">Кадри роботи водіїв</a> 
+                    </div>
+                </div>
+
+                <div class="wrapper-2">
+                    <div class="wrapper-3">
+                        <div class="title-section">
+                            <h3>Про компанію</h3>
+                        </div>
+
+                        <div class="content-section">
+                                <canvas id="myCanvas" width="480" height="320"></canvas>
+                            <div class="controls">
+                                <button id="play">Play</button>
+                                <button id="close" style="display: none;">Close</button>
+                                <button id="start" style="display: none;">Start</button>
+                                <button id="stop" style="display: none;">Stop</button>
+                                <button id="reload" style="display: none;">Reload</button>
+                                <p style="display: none;" id="collision">Collision detected!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="sider">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Message</th>
+                                    <th>Local Time</th>
+                                    <th>Server Time</th>
+                                </tr>
+                            </thead>
+                            <tbody id="local-events"></tbody>
+                            <tbody id="server-events"></tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="bottom-section">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, veniam ratione corporis aliquam saepe aspernatur ipsa, fuga quia praesentium magni ab alias eaque vel commodi earum nemo! Consequatur, saepe doloremque.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <h1>Kumeda prod.</h1>
+            <div class="contact-info">
+                <h4>follow us</h4>
+                <a href="https://www.instagram.com/dkm.1966/?next=%2F"><i class="fab fa-instagram"></i> instagram</a>
+                <a href="#"><i class="fab fa-telegram"></i> telegram</a>
+                <a href="#"><i class="fab fa-tiktok"></i> tikTok</a>
+                <a href="#"><i class="fab fa-facebook"></i> facebook</a>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
